@@ -10,7 +10,6 @@ interface ifaceApiService {
     @GET("apiPeliculas.php")
     // Cambia esto según tu API
     fun obtenerPeliculas(): Call<List<clsPeliculas>>
-
     //Para login y registro
     @FormUrlEncoded
     @POST("apiAcceso.php")

@@ -14,7 +14,6 @@ class reproducir : AppCompatActivity() {
     private lateinit var playerView: StyledPlayerView
     private lateinit var exoPlayer: ExoPlayer
     private lateinit var nombrePelicula : String
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()

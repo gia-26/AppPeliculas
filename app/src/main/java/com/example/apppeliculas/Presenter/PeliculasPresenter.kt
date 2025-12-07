@@ -5,7 +5,6 @@ import com.example.apppeliculas.View.Contracts.PeliculasContract
 
 class PeliculasPresenter (val vista : PeliculasContract) {
     val modelo = PeliculasModel()
-
     fun recuperarPeliculas()
     {
         modelo.inicializarApiService()
@@ -18,4 +17,5 @@ class PeliculasPresenter (val vista : PeliculasContract) {
             }
         }
     }
+
 }
